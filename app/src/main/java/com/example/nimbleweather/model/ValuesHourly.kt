@@ -1,0 +1,33 @@
+package com.example.nimbleweather.model
+
+data class ValuesHourly(
+    val cloudBase: Double,
+    val cloudCeiling: Double,
+    val cloudCover: Int,
+    val dewPoint: Double,
+    val evapotranspiration: Double,
+    val freezingRainIntensity: Int,
+    val humidity: Int,
+    val iceAccumulation: Int,
+    val iceAccumulationLwe: Int,
+    val precipitationProbability: Int,
+    val pressureSurfaceLevel: Double,
+    val rainAccumulation: Int,
+    val rainAccumulationLwe: Int,
+    val rainIntensity: Int,
+    val sleetAccumulation: Int,
+    val sleetAccumulationLwe: Int,
+    val sleetIntensity: Int,
+    val snowAccumulation: Int,
+    val snowAccumulationLwe: Int,
+    val snowIntensity: Int,
+    val temperature: Double,
+    val temperatureApparent: Double,
+    val uvHealthConcern: Int,
+    val uvIndex: Int,
+    val visibility: Int,
+    val weatherCode: Int,
+    val windDirection: Double,
+    val windGust: Double,
+    val windSpeed: Double
+)
